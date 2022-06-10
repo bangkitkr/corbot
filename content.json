@@ -10,7 +10,7 @@
       {
         "tag": "noanswer",
         "input":[""],
-        "responses":["Maaf, Saya tidak tahu maksud kamu", "Maaf saya tidak paham maksudmu, Tolong beri saya info lebih lanjut", "Tidak yakin saya mengerti", "Maaf, saya tidak bisa memahami maksudmu"]
+        "responses":["Maaf, Saya tidak tahu maksud kamu", "Maaf saya tidak paham maksudmu, Tolong beri saya info lebih lanjut", "Maaf, saya tidak bisa memahami maksudmu"]
       },
 
       {
