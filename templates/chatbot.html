@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Corbot</title>
+        <link rel="stylesheet" href="..\static\styles\web_style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="{{ url_for('home') }}"><img src ="..\static\images\logo.png"></a></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="{{ url_for('home') }}">HOME</a></li>
+                    <li><a href="{{ url_for('chatbot') }}">CHATBOT</a></li>
+                    <li><a href="{{ url_for('saran') }}">SARAN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div>
+        <section id="Chatbot">
+            <div class="kolom">
+                <p class="deskripsi"><h2>Corbot</h2></p>
+                <p>Virus Corona adalah virus yang menyerang sistem pernapasan.</p>
+                <p>akibat infeksi virus ini disebut COVID-19.</p> 
+                <p>Virus Corona bisa menyebabkan gangguan ringan pada sistem pernapasan,
+                <p>infeksi paru-paru yang berat, hingga kematian.</p>
+                <p>Corbot dapat memudahkan anda dalam permasalah infomasi covid 19</p>
+                <br>
+                <p><a href="{{ url_for('index') }}" class="tbl-biru">Menuju chatbot</a></p>
+            </div>
+        
+            <div class="kolom img">
+            <img src="https://img.freepik.com/free-vector/chatbot-application-isometric-icon-with-smartphone-character-wearing-virtual-reality-glasses_1284-63051.jpg?w=740&t=st=1652751501~exp=1652752101~hmac=0b20340be780121c1c288893580d59c05d58193f56ba062be3c2cc1f73f730b6"
+            /></div>
+        </section>
+    </div>
+    
+</body>
+</html>
