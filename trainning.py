@@ -13,7 +13,7 @@ import random
 words=[]
 classes = []
 documents = []
-ignore_words = ['?', '!', 'apa', 'itu', 'apakah', 'bagaimana', 'adalah', 'saja', 'yang', 'aku', 'saya', 'anda', 'darimana', 'dari', 'mana']
+ignore_words = ['?', '!', 'apa', 'itu', 'apakah', 'bagaimana', 'adalah', 'saja', 'yang', 'aku', 'saya', 'anda', 'darimana', 'dari', 'mana', 'kamu', 'dia']
 data_file = open('content.json').read()
 intents = json.loads(data_file)
 
@@ -96,4 +96,4 @@ model.save('model.h5', hist)
 
 print("model dibuat")
 scores = model.evaluate(np.array(train_x), np.array(train_y), verbose=0)
-print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
+print("Skor %s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
